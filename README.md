@@ -24,7 +24,13 @@ Provides a clean, professional Air India–style web UI
 
 Architecture
 
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/feeff4a0-ef1c-480c-8f48-8b085b60c52a" />
 
+
+
+UI
+
+<img width="1881" height="917" alt="image" src="https://github.com/user-attachments/assets/c484af04-c5a4-4e63-9b91-308a0e665e19" />
 
 🧰 Tech Stack
 Layer	Technology
