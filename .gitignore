@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+.env
+data/chroma/
+data/chroma/**
+chroma_vectorestore/
+*.sqlite3

@@ -1,0 +1,26 @@
+fastapi
+uvicorn
+
+# LangChain core & modules
+langchain
+langchain-community
+langchain-openai
+langchain-chroma
+langchain-text-splitters
+
+# Vector database
+chromadb
+
+# OpenAI & tokenization
+tiktoken
+
+# PDF ingestion
+pypdf
+
+# Environment & config
+python-dotenv
+pydantic-settings
+
+
+# Static file support (FastAPI dependency)
+jinja2

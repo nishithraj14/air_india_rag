@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Air India Knowledge Assistant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Air India Styling -->
+    <link rel="stylesheet" href="/static/css/airindia.css" />
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <!-- Optional logo -->
+            <!-- <img src="/static/images/airindia-logo.svg" class="logo" /> -->
+            <div class="brand-text">
+                <div class="brand-title">Air India</div>
+                <div class="brand-subtitle">Knowledge Assistant</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Chat Container -->
+    <main class="chat-container">
+        <div id="chat-box" class="chat-box">
+            <div class="message bot">
+                Welcome to Air India’s official knowledge assistant.<br />
+                Ask questions based on internal Air India documents.
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input
+                type="text"
+                id="question-input"
+                placeholder="Ask a question about Air India..."
+                autocomplete="off"
+            />
+            <button id="send-btn">Send</button>
+        </div>
+    </main>
+
+    <script src="/static/js/chat.js"></script>
+</body>
+</html>
