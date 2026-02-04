@@ -1,3 +1,47 @@
+# ✈️ Air India Policy Assistant (RAG)
+
+🚀 **Live Demo (Streamlit Cloud)**  
+👉 https://airindiarag-ohvl5w4xex5wo3appyfyjoz.streamlit.app/
+
+> ⚠️ **Note:** This is a demo deployment on Streamlit Cloud (free tier).  
+> The app may take ~15–30 seconds to wake up after inactivity.
+
+---
+
+## 🔍 What This Demo Shows
+
+This project demonstrates a **production-grade Retrieval-Augmented Generation (RAG) system**
+built to answer questions **strictly based on official Air India policy documents**.
+
+Key characteristics:
+- ❌ No hallucinations
+- 📄 Answers are grounded in real policy text
+- ⚠️ If information is not present in the documents, the system explicitly refuses to answer
+
+---
+
+## 🧪 Try It Out
+
+Example questions you can ask:
+- *What is the baggage allowance for domestic flights?*
+- *What is Air India’s cancellation policy?*
+- *Are refunds allowed for non-refundable tickets?*
+- *What documents are required for international travel?*
+
+---
+
+## ⚙️ Demo Implementation Note
+
+For this live demo, the **vector database (Chroma)** is precomputed and committed to the repository.
+This avoids runtime ingestion and ensures fast, reliable startup on Streamlit Cloud.
+
+In a production environment, this vector store would typically be hosted in
+external storage (e.g., S3, Pinecone, Weaviate).
+
+---
+
+
+
 ✈️ Air India RAG Assistant
 
 A Retrieval-Augmented Generation (RAG) based knowledge assistant for Air India documents, built using FastAPI, OpenAI embeddings, and a persistent vector database, with a professional airline-grade UI.
